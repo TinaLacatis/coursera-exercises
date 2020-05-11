@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div id="header">
+<div id="header" class="sticky-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#">
-                <img src="images/logo_tla.jpg" id="logo" alt="Logo" title="Home">
+                <div id="logo">T's adventures</div>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="menu-text">
+            <div id="header-menu">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
@@ -41,42 +41,103 @@
         </nav>
     </div>
 </div>
-<h1>Hello!</h1>
-<div class="row">
-    <div class="col-lg-4 col-md-6 col-sm-12">
-        <h2 class="right" id="pink">Yesterday</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-            sea takimata sanctus est Lorem ipsum dolor sit amet.
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua.
-            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-            est Lorem ipsum dolor sit amet.</p>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
-        <h2 class="right" id="red">Today</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-            sea takimata sanctus est Lorem ipsum dolor sit amet.
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua.
-            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-            est Lorem ipsum dolor sit amet.</p>
-    </div>
-    <div class="col-lg-4 col-md-12 col-sm-12">
-        <h2 class="right" id="orange">Tomorrow</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-            sea takimata sanctus est Lorem ipsum dolor sit amet.
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua.
-            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-            est Lorem ipsum dolor sit amet.</p>
+<div class="jumbotron" id="firts-part">
+    <img src="images/Sea.jpg" title="Corvinilor Castle">
+</div>
+
+<div class="second-part">
+    <h3>European Union</h3>
+    <p id="intro">The European Union (EU) is a political and economic union of 27 member states that are located primarily in Europe.
+        The EU has developed an internal single market through a standardised system of laws that apply in all member states in those matters, and only those matters, where members have agreed to act as one. EU policies aim to ensure the free movement of people, goods, services and capital within the internal market, enact legislation in justice and home affairs and maintain common policies on trade, agriculture, fisheries and regional development. For travel within the Schengen Area, passport controls have been abolished.</p>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#">
+                <div class="image-card">
+                    <img src="images/romania-map.jpg"  class="rounded mx-auto d-block">
+                    <span>Romania</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#">
+                <div class="image-card">
+                    <img src="images/germany-map.jpg"  class="rounded mx-auto d-block">
+                    <span>Germany</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#">
+                <div class="image-card">
+                    <img src="images/denmark-map.jpg"  class="rounded mx-auto d-block">
+                    <span> Denmark</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#">
+                <div class="image-card">
+                    <img src="images/holland-map.jpg"  class="rounded mx-auto d-block">
+                    <span>Netherlands</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#">
+                <div class="image-card">
+                    <img src="images/poland-map.jpg"  class="rounded mx-auto d-block">
+                    <span>Poland</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#">
+                <div class="image-card">
+                    <img src="images/italy-map.jpg"  class="rounded mx-auto d-block">
+                    <span>Italy</span>
+                </div>
+            </a>
+        </div>
     </div>
 </div>
+<!--<footer>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-6" >
+                    <ul class="navbar-nav">
+                        <li class="nav-item footer-menu">
+                            <a href="#" class="nav-link">Impressum</a>
+                        </li>
+                        <li class="nav-item footer-menu">
+                            <a href="#" class="nav-link">Datenschutz</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</footer>-->
+<footer>
+    <div class="container">
+        <div id="footer-menu">
+            <div class="row">
+                <div class="col-6 footer-text">
+                    <a href="#" class="nav-link">Impressum</a>
+                    <a href="#" class="nav-link">Datenschutz</a>
+                </div>
+                <div class="col-6 footer-text">
+                    <cite>
+                        What you think, you become. -Buddha
+                    </cite>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 <script src="js/jquery-3.4.1.slim.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
